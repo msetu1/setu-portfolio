@@ -1,12 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "./Root";
-import Home from "../components/Home";
 import Dashboard from "../dashboard/Dashboard";
 import About from "../dashboard/About";
 import Skills from "../dashboard/Skills";
 import Education from "../dashboard/Education";
 import Projects from "../dashboard/Projects";
 import Contact from "../dashboard/Contact";
+import Explore from "../components/Explore";
+import App from "../components/App";
+
 
 const router = createBrowserRouter([
   {
@@ -15,14 +17,20 @@ const router = createBrowserRouter([
     children:[
         {
             path:'/',
-            element:<Home></Home>
-        }
+            element:<App></App>
+        },
+        
+    
     ]
   },
   {
     path:'dashboard',
     element:<Dashboard></Dashboard>,
     children:[
+        {
+            path:'/dashboard',
+            element:<Explore></Explore>
+        },
         {
             path:'about',
             element:<About></About>

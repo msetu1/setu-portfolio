@@ -1,0 +1,8 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.bg-color{
+    background-color:radial-gradient(at right center, rgb(34, 52, 174) 0%, rgb(0, 0, 0) 40%) right center / cover fixed;
+}
