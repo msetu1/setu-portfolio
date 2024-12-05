@@ -23,7 +23,7 @@ const App = () => {
           I am a Front-end web developer with expertise in creating attractive, user-friendly websites. Specializing in clean, responsive designs using HTML, CSS, Tailwind, JavaScript, and React. Proficient in Node.js, and MongoDB. Eager to enhance your team – let's connect! Email me or use the provided information.
           </p>
           <div className="flex gap-5">
-          <a href="/public/setu-resume/Richard.pdf" download>
+          <a href="/public/setu-resume/Setu Resume.pdf" download>
           <button className="btn text-left btn-outline border-0 border-[#15803d] hover:bg-black hover:border-[#15803d] hover:border-2 border-b-4 text-xl text-primary-content ">
           <MdOutlineFileDownload /> My resume
           </button>

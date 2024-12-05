@@ -16,13 +16,33 @@ const Projects = () => {
       }}
       whileTap={{ scale: 0.9 }}>
         <div className="border border-gray-700 rounded-lg relative">
-          <img className="w-full h-[350px]" src="https://i.ibb.co/3pnx069/Screenshot-2024-06-22-193333.png" alt="" />
+          <img className="w-full h-[350px]" src="https://i.ibb.co.com/SNKRbNL/Screenshot-2024-12-06-000901.png" alt="" />
+          <div className="absolute top-64 left-5">
+          <div className="mt-4 flex items-center gap-3">
+            <a href="https://github.com/abdurrahmanrahat/e-learning/tree/setu">
+            <button className="border-2 border-[#15803d] px-6 py-2 lg:text-xl md:text-xl font-bold rounded-lg hover:bg-black flex items-center gap-3 bg-green-800 text-white ">Github <FaGithub/></button>
+            </a>
+            <a href="https://brainwave-learning.netlify.app/">
+            <button className="border-2 border-[#15803d] px-6 py-2 lg:text-xl md:text-xl font-bold rounded-lg hover:bg-green-800 flex items-center gap-3 hover:text-white text-black">Live Link <MdArrowOutward /></button>
+            </a>
+          </div>
+          </div>
+        </div>
+        </motion.div>
+        <motion.div
+      whileHover={{
+        scale: 0.9,
+        transition: { duration: 0.5 },
+      }}
+      whileTap={{ scale: 0.9 }}>
+        <div className="border border-gray-700 rounded-lg relative">
+          <img className="w-full h-[350px]" src="https://i.ibb.co.com/HP8MMsv/Screenshot-2024-12-06-002457.png" alt="" />
           <div className="absolute top-64 left-5">
           <div className="mt-4 flex items-center gap-3">
             <a href="https://github.com/msetu1/kester-soccer-club">
             <button className="border-2 border-[#15803d] px-6 py-2 lg:text-xl md:text-xl font-bold rounded-lg hover:bg-black flex items-center gap-3 bg-green-800 text-white ">Github <FaGithub/></button>
             </a>
-            <a href="https://kester-soccer-club-project.netlify.app/">
+            <a href="https://assignment-12-client-sid-1307f.web.app/">
             <button className="border-2 border-[#15803d] px-6 py-2 lg:text-xl md:text-xl font-bold rounded-lg hover:bg-green-800 flex items-center gap-3 hover:text-white">Live Link <MdArrowOutward /></button>
             </a>
           </div>
@@ -36,33 +56,13 @@ const Projects = () => {
       }}
       whileTap={{ scale: 0.9 }}>
         <div className="border border-gray-700 rounded-lg relative">
-          <img className="w-full h-[350px]" src="https://i.ibb.co/3pnx069/Screenshot-2024-06-22-193333.png" alt="" />
+          <img className="w-full h-[350px]" src="https://i.ibb.co.com/qj0ZzYc/Screenshot-2024-12-06-002636.png" alt="" />
           <div className="absolute top-64 left-5">
           <div className="mt-4 flex items-center gap-3">
             <a href="https://github.com/msetu1/kester-soccer-club">
             <button className="border-2 border-[#15803d] px-6 py-2 lg:text-xl md:text-xl font-bold rounded-lg hover:bg-black flex items-center gap-3 bg-green-800 text-white ">Github <FaGithub/></button>
             </a>
-            <a href="https://kester-soccer-club-project.netlify.app/">
-            <button className="border-2 border-[#15803d] px-6 py-2 lg:text-xl md:text-xl font-bold rounded-lg hover:bg-green-800 flex items-center gap-3 hover:text-white">Live Link <MdArrowOutward /></button>
-            </a>
-          </div>
-          </div>
-        </div>
-        </motion.div>
-        <motion.div
-      whileHover={{
-        scale: 0.9,
-        transition: { duration: 0.5 },
-      }}
-      whileTap={{ scale: 0.9 }}>
-        <div className="border border-gray-700 rounded-lg relative">
-          <img className="w-full h-[350px]" src="https://i.ibb.co/3pnx069/Screenshot-2024-06-22-193333.png" alt="" />
-          <div className="absolute top-64 left-5">
-          <div className="mt-4 flex items-center gap-3">
-            <a href="https://github.com/msetu1/kester-soccer-club">
-            <button className="border-2 border-[#15803d] px-6 py-2 lg:text-xl md:text-xl font-bold rounded-lg hover:bg-black flex items-center gap-3 bg-green-800 text-white ">Github <FaGithub/></button>
-            </a>
-            <a href="https://kester-soccer-club-project.netlify.app/">
+            <a href="https://brand-shop-client-side-d9c6a.web.app/">
             <button className="border-2 border-[#15803d] px-6 py-2 lg:text-xl md:text-xl font-bold rounded-lg hover:bg-green-800 flex items-center gap-3 hover:text-white">Live Link <MdArrowOutward /></button>
             </a>
           </div>

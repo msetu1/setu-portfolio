@@ -8,7 +8,7 @@ const About = () => {
       <div className="mb-12">
         <h1 className="text-4xl  font-bold text-[#15803d]   mb-3 underline underline-offset-8">About</h1>
         <p className=" my-4">
-          I am a Front-end web developer with expertise in creating attractive, user-friendly websites. Specializing in clean, responsive designs using HTML, CSS, Tailwind, JavaScript, and React. Proficient in Node.js, Express.js, and MongoDB. Eager to enhance your team – let's connect! Email me or use the provided information.
+        Hello, This is setu akter, I am a Front-end web developer with expertise in creating attractive, user-friendly websites. Specializing in clean, responsive designs using HTML, CSS, Tailwind, React.js, JavaScript,TypeScript, and React. Proficient in Node.js, MongoDB , wordpress, Microsoft Exel, MS word, and Web design .My first priority to satisfy my clients. i will ensure your website will be good looking, user friendly and fully responsive. Eager to enhance your team – let's connect! Email me or use the provided information.
           </p>
       </div>
       <div className="flex flex-col lg:flex-row gap-4 ">
@@ -61,7 +61,7 @@ const About = () => {
             <p>Highly motivated Front End Developer with a passion for creating efficient and scalable web applications. Seeking an entry-level position to apply my technical skills, collaborate with a talented team, and contribute to the development of innovative software solutions. Committed to continuous learning and staying updated with the latest technologies in the MERN stack.</p>
           </div>
           <div>
-          <a href="/public/setu-resume/Richard.pdf" download>
+          <a href="/public/setu-resume/Setu Resume.pdf" download>
           <button className="btn text-left btn-outline border-0 border-[#15803d] hover:bg-black hover:border-[#15803d] hover:border-2 border-b-4 text-xl lg:  text-primary-content">
           <MdOutlineFileDownload /> My resume
           </button>

@@ -27,7 +27,7 @@ const Details = () => {
             </div>
           </div>
           <div className="mt-3">
-          <a href="/public/setu-resume/Richard.pdf" download>
+          <a href="/public/setu-resume/Setu Resume.pdf" download>
           <button className="btn text-left btn-outline border-0 border-[#15803d] hover:bg-black hover:border-[#15803d] hover:border-2 border-b-4 text-xl text-primary-content hover:text-primary-content">
           <MdOutlineFileDownload /> Download resume
           </button>
