@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
-import { BiLogoNetlify } from "react-icons/bi";
+
 const Details = () => {
   return (
     <div>
