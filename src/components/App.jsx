@@ -13,26 +13,31 @@ const App = () => {
       <div className=" lg:max-w-4xl lg:mx-auto lg:pt-48 pt-10 mx-10 ">
         <div className="">
           <h2 className="text-2xl font-semibold mb-10">Hello !!</h2>
-         
+
           <div className="flex gap-2">
             <p className="text-[30px] font-bold">I am </p>
             <div
-            style={{ fontSize: "30px", textAlign: "center",color:'#15803d', fontWeight: "bold" }}
-          >
-            <Typewriter
-              words={[
-                "MERN Stack Developer",
-                "Front end Developer",
-                "React Developer",
-              ]}
-              loop={5} 
-              cursor
-              cursorStyle="_"
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1000}
-            />
-          </div>
+              style={{
+                fontSize: "30px",
+                textAlign: "center",
+                color: "#15803d",
+                fontWeight: "bold",
+              }}
+            >
+              <Typewriter
+                words={[
+                  "MERN Stack Developer",
+                  "Front end Developer",
+                  "React Developer",
+                ]}
+                loop={5}
+                cursor
+                cursorStyle="_"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </div>
           </div>
           <p className=" my-4 max-w-[600px]">
             I am a MERN Stack web developer with expertise in creating
@@ -42,7 +47,7 @@ const App = () => {
             let's connect! Email me or use the provided information.
           </p>
           <div className="flex gap-5">
-            <a href="/public/setu-resume/Setu Resume.pdf" download>
+            <a href="/public/setu-resume/Setu-Resume.pdf" download>
               <button className="btn text-left btn-outline border-0 border-[#15803d] hover:bg-black hover:border-[#15803d] hover:border-2 border-b-4 text-xl text-primary-content ">
                 <MdOutlineFileDownload /> My resume
               </button>

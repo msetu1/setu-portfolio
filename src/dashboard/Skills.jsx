@@ -13,8 +13,10 @@ const Skills = () => {
         </h1>
         <ul className=" ml-5">
             <li className="text-xl font-semibold list-disc mb-2">JavaScript</li>
+            <li className="text-xl font-semibold list-disc mb-2">TypeScript</li>
             <li className="text-xl font-semibold list-disc mb-2">React.js</li>
             <li className="text-xl font-semibold list-disc mb-2">React Hooks</li>
+            <li className="text-xl font-semibold list-disc mb-2">Next.js</li>
             <li className="text-xl font-semibold list-disc mb-2">JWT</li>
             <li className="text-xl font-semibold list-disc mb-2">Node.js</li>
             <li className="text-xl font-semibold list-disc mb-2">Express.js</li>
@@ -74,6 +76,7 @@ const Skills = () => {
         </h1>
         <ul className=" ml-5">
             <li className="text-xl font-semibold list-disc mb-2">MongoDB</li>
+            <li className="text-xl font-semibold list-disc mb-2">Mongoose</li>
            </ul>
           </div>
           <div className="">
@@ -83,6 +86,7 @@ const Skills = () => {
         </h1>
         <ul className=" ml-5">
             <li className="text-xl font-semibold list-disc mb-2">JavaScript</li>
+            <li className="text-xl font-semibold list-disc mb-2">TypeScript</li>
            </ul>
           </div>
            </div>
